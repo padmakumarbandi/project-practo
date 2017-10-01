@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A72796601F81AFF000CCC33F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A727965F1F81AFF000CCC33F /* AppDelegate.swift */; };
+		A72796621F81AFF000CCC33F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72796611F81AFF000CCC33F /* ViewController.swift */; };
+		A72796651F81AFF000CCC33F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A72796631F81AFF000CCC33F /* Main.storyboard */; };
+		A72796681F81AFF000CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A72796661F81AFF000CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllers.xcdatamodeld */; };
+		A727966A1F81AFF000CCC33F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72796691F81AFF000CCC33F /* Assets.xcassets */; };
+		A727966D1F81AFF000CCC33F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A727966B1F81AFF000CCC33F /* LaunchScreen.storyboard */; };
+		A72796781F81AFF100CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72796771F81AFF100CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllersTests.swift */; };
+		A72796831F81AFF100CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72796821F81AFF100CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllersUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A72796741F81AFF100CCC33F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A72796541F81AFF000CCC33F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A727965B1F81AFF000CCC33F;
+			remoteInfo = controllers_nav_tabbar_collectionVw_tablVWControllers;
+		};
+		A727967F1F81AFF100CCC33F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A72796541F81AFF000CCC33F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A727965B1F81AFF000CCC33F;
+			remoteInfo = controllers_nav_tabbar_collectionVw_tablVWControllers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A727965C1F81AFF000CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = controllers_nav_tabbar_collectionVw_tablVWControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A727965F1F81AFF000CCC33F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A72796611F81AFF000CCC33F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A72796641F81AFF000CCC33F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A72796671F81AFF000CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = controllers_nav_tabbar_collectionVw_tablVWControllers.xcdatamodel; sourceTree = "<group>"; };
+		A72796691F81AFF000CCC33F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A727966C1F81AFF000CCC33F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A727966E1F81AFF000CCC33F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A72796731F81AFF100CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = controllers_nav_tabbar_collectionVw_tablVWControllersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72796771F81AFF100CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = controllers_nav_tabbar_collectionVw_tablVWControllersTests.swift; sourceTree = "<group>"; };
+		A72796791F81AFF100CCC33F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A727967E1F81AFF100CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = controllers_nav_tabbar_collectionVw_tablVWControllersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72796821F81AFF100CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = controllers_nav_tabbar_collectionVw_tablVWControllersUITests.swift; sourceTree = "<group>"; };
+		A72796841F81AFF100CCC33F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A72796591F81AFF000CCC33F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72796701F81AFF100CCC33F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A727967B1F81AFF100CCC33F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A72796531F81AFF000CCC33F = {
+			isa = PBXGroup;
+			children = (
+				A727965E1F81AFF000CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllers */,
+				A72796761F81AFF100CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllersTests */,
+				A72796811F81AFF100CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllersUITests */,
+				A727965D1F81AFF000CCC33F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A727965D1F81AFF000CCC33F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A727965C1F81AFF000CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllers.app */,
+				A72796731F81AFF100CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllersTests.xctest */,
+				A727967E1F81AFF100CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A727965E1F81AFF000CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A727965F1F81AFF000CCC33F /* AppDelegate.swift */,
+				A72796611F81AFF000CCC33F /* ViewController.swift */,
+				A72796631F81AFF000CCC33F /* Main.storyboard */,
+				A72796691F81AFF000CCC33F /* Assets.xcassets */,
+				A727966B1F81AFF000CCC33F /* LaunchScreen.storyboard */,
+				A727966E1F81AFF000CCC33F /* Info.plist */,
+				A72796661F81AFF000CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllers.xcdatamodeld */,
+			);
+			path = controllers_nav_tabbar_collectionVw_tablVWControllers;
+			sourceTree = "<group>";
+		};
+		A72796761F81AFF100CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllersTests */ = {
+			isa = PBXGroup;
+			children = (
+				A72796771F81AFF100CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllersTests.swift */,
+				A72796791F81AFF100CCC33F /* Info.plist */,
+			);
+			path = controllers_nav_tabbar_collectionVw_tablVWControllersTests;
+			sourceTree = "<group>";
+		};
+		A72796811F81AFF100CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A72796821F81AFF100CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllersUITests.swift */,
+				A72796841F81AFF100CCC33F /* Info.plist */,
+			);
+			path = controllers_nav_tabbar_collectionVw_tablVWControllersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A727965B1F81AFF000CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A72796871F81AFF100CCC33F /* Build configuration list for PBXNativeTarget "controllers_nav_tabbar_collectionVw_tablVWControllers" */;
+			buildPhases = (
+				A72796581F81AFF000CCC33F /* Sources */,
+				A72796591F81AFF000CCC33F /* Frameworks */,
+				A727965A1F81AFF000CCC33F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = controllers_nav_tabbar_collectionVw_tablVWControllers;
+			productName = controllers_nav_tabbar_collectionVw_tablVWControllers;
+			productReference = A727965C1F81AFF000CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A72796721F81AFF100CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A727968A1F81AFF100CCC33F /* Build configuration list for PBXNativeTarget "controllers_nav_tabbar_collectionVw_tablVWControllersTests" */;
+			buildPhases = (
+				A727966F1F81AFF100CCC33F /* Sources */,
+				A72796701F81AFF100CCC33F /* Frameworks */,
+				A72796711F81AFF100CCC33F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A72796751F81AFF100CCC33F /* PBXTargetDependency */,
+			);
+			name = controllers_nav_tabbar_collectionVw_tablVWControllersTests;
+			productName = controllers_nav_tabbar_collectionVw_tablVWControllersTests;
+			productReference = A72796731F81AFF100CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A727967D1F81AFF100CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A727968D1F81AFF100CCC33F /* Build configuration list for PBXNativeTarget "controllers_nav_tabbar_collectionVw_tablVWControllersUITests" */;
+			buildPhases = (
+				A727967A1F81AFF100CCC33F /* Sources */,
+				A727967B1F81AFF100CCC33F /* Frameworks */,
+				A727967C1F81AFF100CCC33F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A72796801F81AFF100CCC33F /* PBXTargetDependency */,
+			);
+			name = controllers_nav_tabbar_collectionVw_tablVWControllersUITests;
+			productName = controllers_nav_tabbar_collectionVw_tablVWControllersUITests;
+			productReference = A727967E1F81AFF100CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A72796541F81AFF000CCC33F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Padma kumar";
+				TargetAttributes = {
+					A727965B1F81AFF000CCC33F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3S7SA97273;
+						ProvisioningStyle = Automatic;
+					};
+					A72796721F81AFF100CCC33F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3S7SA97273;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A727965B1F81AFF000CCC33F;
+					};
+					A727967D1F81AFF100CCC33F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3S7SA97273;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A727965B1F81AFF000CCC33F;
+					};
+				};
+			};
+			buildConfigurationList = A72796571F81AFF000CCC33F /* Build configuration list for PBXProject "controllers_nav_tabbar_collectionVw_tablVWControllers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A72796531F81AFF000CCC33F;
+			productRefGroup = A727965D1F81AFF000CCC33F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A727965B1F81AFF000CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllers */,
+				A72796721F81AFF100CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllersTests */,
+				A727967D1F81AFF100CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A727965A1F81AFF000CCC33F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A727966D1F81AFF000CCC33F /* LaunchScreen.storyboard in Resources */,
+				A727966A1F81AFF000CCC33F /* Assets.xcassets in Resources */,
+				A72796651F81AFF000CCC33F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72796711F81AFF100CCC33F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A727967C1F81AFF100CCC33F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A72796581F81AFF000CCC33F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72796621F81AFF000CCC33F /* ViewController.swift in Sources */,
+				A72796601F81AFF000CCC33F /* AppDelegate.swift in Sources */,
+				A72796681F81AFF000CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllers.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A727966F1F81AFF100CCC33F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72796781F81AFF100CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A727967A1F81AFF100CCC33F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72796831F81AFF100CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A72796751F81AFF100CCC33F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A727965B1F81AFF000CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllers */;
+			targetProxy = A72796741F81AFF100CCC33F /* PBXContainerItemProxy */;
+		};
+		A72796801F81AFF100CCC33F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A727965B1F81AFF000CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllers */;
+			targetProxy = A727967F1F81AFF100CCC33F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A72796631F81AFF000CCC33F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A72796641F81AFF000CCC33F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A727966B1F81AFF000CCC33F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A727966C1F81AFF000CCC33F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A72796851F81AFF100CCC33F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A72796861F81AFF100CCC33F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A72796881F81AFF100CCC33F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3S7SA97273;
+				INFOPLIST_FILE = controllers_nav_tabbar_collectionVw_tablVWControllers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartWorks.controllers-nav-tabbar-collectionVw-tablVWControllers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A72796891F81AFF100CCC33F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3S7SA97273;
+				INFOPLIST_FILE = controllers_nav_tabbar_collectionVw_tablVWControllers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartWorks.controllers-nav-tabbar-collectionVw-tablVWControllers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A727968B1F81AFF100CCC33F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3S7SA97273;
+				INFOPLIST_FILE = controllers_nav_tabbar_collectionVw_tablVWControllersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartWorks.controllers-nav-tabbar-collectionVw-tablVWControllersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/controllers_nav_tabbar_collectionVw_tablVWControllers.app/controllers_nav_tabbar_collectionVw_tablVWControllers";
+			};
+			name = Debug;
+		};
+		A727968C1F81AFF100CCC33F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3S7SA97273;
+				INFOPLIST_FILE = controllers_nav_tabbar_collectionVw_tablVWControllersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartWorks.controllers-nav-tabbar-collectionVw-tablVWControllersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/controllers_nav_tabbar_collectionVw_tablVWControllers.app/controllers_nav_tabbar_collectionVw_tablVWControllers";
+			};
+			name = Release;
+		};
+		A727968E1F81AFF100CCC33F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3S7SA97273;
+				INFOPLIST_FILE = controllers_nav_tabbar_collectionVw_tablVWControllersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartWorks.controllers-nav-tabbar-collectionVw-tablVWControllersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = controllers_nav_tabbar_collectionVw_tablVWControllers;
+			};
+			name = Debug;
+		};
+		A727968F1F81AFF100CCC33F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3S7SA97273;
+				INFOPLIST_FILE = controllers_nav_tabbar_collectionVw_tablVWControllersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartWorks.controllers-nav-tabbar-collectionVw-tablVWControllersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = controllers_nav_tabbar_collectionVw_tablVWControllers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A72796571F81AFF000CCC33F /* Build configuration list for PBXProject "controllers_nav_tabbar_collectionVw_tablVWControllers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A72796851F81AFF100CCC33F /* Debug */,
+				A72796861F81AFF100CCC33F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A72796871F81AFF100CCC33F /* Build configuration list for PBXNativeTarget "controllers_nav_tabbar_collectionVw_tablVWControllers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A72796881F81AFF100CCC33F /* Debug */,
+				A72796891F81AFF100CCC33F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A727968A1F81AFF100CCC33F /* Build configuration list for PBXNativeTarget "controllers_nav_tabbar_collectionVw_tablVWControllersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A727968B1F81AFF100CCC33F /* Debug */,
+				A727968C1F81AFF100CCC33F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A727968D1F81AFF100CCC33F /* Build configuration list for PBXNativeTarget "controllers_nav_tabbar_collectionVw_tablVWControllersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A727968E1F81AFF100CCC33F /* Debug */,
+				A727968F1F81AFF100CCC33F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A72796661F81AFF000CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllers.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A72796671F81AFF000CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllers.xcdatamodel */,
+			);
+			currentVersion = A72796671F81AFF000CCC33F /* controllers_nav_tabbar_collectionVw_tablVWControllers.xcdatamodel */;
+			path = controllers_nav_tabbar_collectionVw_tablVWControllers.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A72796541F81AFF000CCC33F /* Project object */;
+}
